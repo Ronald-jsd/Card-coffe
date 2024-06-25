@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-color: #C89672;
+}
+
+.card{
+        background-color: #FFFFFF;
+        border: solid 0px black;
+        width: 269px;
+        height: 349px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.2);
+}
+
+.estrella-png{
+    width: 17px;
+    height: 17px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.estrella-direction{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.coffe-png{
+        width: 218px;
+        margin-right: 0px;
+        margin-top: 0px;
+}
+
+.coffeimg-direction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -90px 0px -70px 0px;
+}
+
+h1{
+   font-size: 20px; 
+   font-family: "Inter", sans-serif;
+
+}
+
+p{
+    font-size: 9px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+.can-be{
+    font-size: 8px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a{
+    font-size: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px 2px 5px;
+    border-radius: 20px;
+    box-shadow:  0px 1.5px 1.5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.description{
+    margin: 0px 20px 0px 20px;
+}
+
+.sabores{
+    margin: 3px 20px 0px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700; 
+}
+
+.sugar{
+    background-color: #EEEEEE;
+}
+
+.vanilla{
+    background-color: #D4FFCC;
+}
+
+.cherry{
+    background-color: #FFA1A1;
+}
+
+.cinnamon{
+    background-color: #ECD6A4;
+}
+
+footer{
+    margin: 30px 0px 0px -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.precio{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0px 0px 20px;
+}
+
+.make-an{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 0px 80px 0px -80px;
+    margin: 0px 0px 0px 80px;
+    border-radius: 30px;
+    width: 100px;
+    height: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flecha-img{
+    width: 10px;
+    height: 10px;
+}
